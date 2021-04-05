@@ -4,7 +4,6 @@ import MovieCard from "../MovieCard/MovieCard.jsx";
 
 const { Search } = Input;
 
-// eslint-disable-next-line import/no-anonymous-default-export
 const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState(null);
   const [searchData, setSearchData] = useState(null);
